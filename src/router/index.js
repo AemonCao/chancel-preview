@@ -7,6 +7,14 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
+    component: () => import('../views/login/index')
+  },
+  {
+    path: '/catalog',
+    component: () => import('../views/catalog/index')
+  },
+  {
+    path: '/home',
     name: 'Home',
     component: Home
   },
