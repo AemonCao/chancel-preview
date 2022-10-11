@@ -105,7 +105,7 @@ export default {
   height: 100vh;
   width: 100%;
   /* border: 1px solid red; */
-  /* background: url('../../assets/images/login_background.svg') 100% 100%; */
+  background: url('../../assets/images/login_background.svg') 100% 100%;
   background-size: cover;
   overflow: hidden;
   display: flex;
@@ -114,6 +114,7 @@ export default {
 }
 .login-container {
   width: 35%;
+  /* border: 1px solid red; */
   margin: 0 auto;
 }
 </style>
